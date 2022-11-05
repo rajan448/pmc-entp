@@ -1,0 +1,15 @@
+.products-heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.product-section {
+    height: 200px;
+}
+
+.big-heading {
+    font-size: 32px;
+}
