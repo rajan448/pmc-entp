@@ -3,6 +3,8 @@ import SimpleSlider from "../../components/Slider";
 import {ProductCard, ProductFigure, ProductsContainer} from "./../../components/Products";
 import styled from "styled-components";
 import './landing.css';
+import {InputBox, TextInput} from "../../components/UIElements/InputBox";
+import {Button} from "@mui/material";
 
 export const Landing = () => {
     return (
@@ -58,7 +60,7 @@ export const AddressContainer = styled.div`
   flex: 1;
   margin: 1rem;
   flex-direction: column;
-  background-color: #aac0aa;
+  border 1px solid grey;
 `;
 
 
@@ -67,7 +69,6 @@ export const ContactUsFormContainer = styled.form`
   flex: 1;
   margin: 1rem;
   flex-direction: column;
-  background-color: #aac0aa;
 `;
 
 const Address = () => {
@@ -77,18 +78,12 @@ const Address = () => {
       </AddressContainer>
     
       <ContactUsFormContainer>
-          <input type="text" placeholder="Name"/>
-
-          <input type="email" placeholder="Email"/>
-
-          <input type="text" placeholder="Mobile" />
-
-          <textarea name="message" id="message" cols="30" rows="10" placeholder="your message here"></textarea>
-
-          <button type="submit">Submit</button>
+          <InputBox type="text" placeholder="Name"></InputBox>
+          <InputBox type="email" placeholder="Email"></InputBox>
+          <InputBox type="text" placeholder="Mobile"></InputBox>
+          <TextInput name="message" id="message" cols="30" rows="5" placeholder="Enter your message here"></TextInput>
+          <Button variant="contained" type="submit">Submit</Button>
       </ContactUsFormContainer>
-
-
 
   </ContactContainer>
 }
