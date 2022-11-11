@@ -12,6 +12,10 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             PMC Enterprises
+            {/*<div className="nav-container">*/}
+            {/*  <img width={102} height={78} src={"./assets/images/Logo.png"}/>*/}
+            {/* */}
+            {/*</div>*/}
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

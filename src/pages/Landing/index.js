@@ -9,7 +9,7 @@ import {Button} from "@mui/material";
 export const Landing = () => {
     return (
       <div className="landing">
-        <section class="banner">
+        <section className="banner">
           <SimpleSlider></SimpleSlider>
         </section>
 
