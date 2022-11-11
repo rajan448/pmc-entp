@@ -79,7 +79,7 @@ const ContactContainer = styled.div`
   flex-direction: row;
   background-color: #f6f6f6;
   @media screen and (max-width: 960px) {
-      //flex-direction: column-reverse;
+      flex-direction: column;
   }
 `;
 
