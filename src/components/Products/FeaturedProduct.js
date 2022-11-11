@@ -5,7 +5,6 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   background-color: #f6f6f6;
-  //opacity: 0.1;
   margin: 1rem 0;
   flex-direction: ${props => props.primary ? "row-reverse" : "row"};
 
@@ -32,27 +31,23 @@ export const DescriptionSection = styled.div`
 `;
 
 const ProductImage = styled.img`
- max-height: 100%;
+  max-height: 100%;
   max-width: 100%;
 `;
 
 
-export const FeaturedProduct = ({even}) => {
+export const FeaturedProduct = ({even, imageUrl, name, description}) => {
     return <Container primary={even} className={"featured-product"}>
         <ImageSection>
-            <ProductImage src="./assets/images/plate-stack.webp" alt="Plate Stack"/>
+            <ProductImage src={imageUrl} alt="Plate Stack"/>
         </ImageSection>
         <DescriptionSection>
-            <h1>Dinner Sets</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!
-            </p>
-
+            <h1>{name}</h1>
+            <p>{description}</p>
             <div className={"buttons"}>
                 <Button variant="text" type="submit">View More</Button>
                 <Button style={{margin: "1rem"}} variant="outlined" type="submit">Enquire Now</Button>
             </div>
-
         </DescriptionSection>
     </Container>
 

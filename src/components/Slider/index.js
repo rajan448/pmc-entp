@@ -2,42 +2,21 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import './slider.css';
+import legendData from './../../data/legendData.json';
 
 class SimpleSlider extends React.Component {
     render() {
         return <Carousel showStatus={false} showThumbs={false} infiniteLoop={true} autoPlay={true}>
-                <div>
-                    <img src="./assets/images/plain_bowl.webp" alt="Dinner Set" />
-                    <div className="legend">
-                        <h1>High Quality Dinner Sets</h1>
+            {
+                legendData.map((item, index) => (
+                    <div key={index}>
+                        <img src={item?.imageUrl} alt="Dinner Set" />
+                        <div className="legend">
+                            <h1>{item.header}</h1>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src="./assets/images/cutlery.webp" alt="Dinner Set"/>
-                    <div className="legend">
-                        <h1>Custom Designed Plates and cutlery</h1>
-                    </div>
-                </div>
-                <div>
-                    <img src="./assets/images/bowl-fashion.webp" alt="Dinner Set" />
-                    <div className="legend">
-                        <h1>
-                            Cross India Shipping
-                        </h1>
-                    </div>
-                </div>
-                {/*<div>*/}
-                {/*    <img src="https://picsum.photos/id/231/150/100" alt="Pic3" />*/}
-                {/*    <p className="legend">Image 3</p>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <img src="https://picsum.photos/id/234/150/100" alt="Pic3" />*/}
-                {/*    <p className="legend">Image 3</p>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <img src="https://picsum.photos/id/238/150/100" alt="Pic3" />*/}
-                {/*    <p className="legend">Image 3</p>*/}
-                {/*</div>*/}
+                ))
+            }
             </Carousel>
     };
   }

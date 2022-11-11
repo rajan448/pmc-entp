@@ -6,6 +6,8 @@ import './landing.css';
 import {InputBox, TextInput} from "../../components/UIElements/InputBox";
 import {Button} from "@mui/material";
 import { FeaturedProduct } from "../../components/Products/FeaturedProduct";
+import popularProducts from './../../data/popular-products.json';
+
 // import GoogleMapReact, {} from "google-map-react";
 // import { Icon } from '@iconify/react'
 // import locationIcon from '@iconify/icons-mdi/map-marker'
@@ -31,8 +33,10 @@ export const Landing = () => {
 
               <div className="product-section">
                   {
-                      [1,2,3].map((item) => {
-                          return <FeaturedProduct even={item%2 === 0} key={item}></FeaturedProduct>
+                      popularProducts.map((item, index) => {
+                          return <FeaturedProduct even={index%2 === 0} key={item.id}
+                              {...item}
+                          ></FeaturedProduct>
                       })
                   }
               </div>

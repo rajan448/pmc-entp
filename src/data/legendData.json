@@ -1,8 +1,20 @@
 [
   {
     "id": 1,
-    "imageUrl": "",
-    "header": "Our Speciality",
+    "imageUrl": "./assets/images/plain_bowl.webp",
+    "header": "Welcome to PMC Enterprises",
+    "description": "Short description of the product to appear over the slider Image"
+  },
+  {
+    "id": 1,
+    "imageUrl": "./assets/images/cutlery.webp",
+    "header": "High Quality Melamine Tableware Manufacturer",
+    "description": "Short description of the product to appear over the slider Image"
+  },
+  {
+    "id": 1,
+    "imageUrl": "./assets/images/bowl-fashion.webp",
+    "header": "Bring in Your Own Custom Design and Branding..",
     "description": "Short description of the product to appear over the slider Image"
   }
 ]

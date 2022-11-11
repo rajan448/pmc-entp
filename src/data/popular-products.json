@@ -1,0 +1,26 @@
+[
+  {
+    "id": 11,
+    "name": "Dinner Set",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
+    "imageUrl": "./assets/images/plate-stack.webp"
+  },
+  {
+    "id": 12,
+    "name": "Tray Set",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
+    "imageUrl": "./assets/images/plate-stack.webp"
+  },
+  {
+    "id": 13,
+    "name": "Bowl",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
+    "imageUrl": "./assets/images/designed-plate-design.webp"
+  },
+  {
+    "id": 14,
+    "name": "Thali",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
+    "imageUrl": "./assets/images/plate-stack.webp"
+  }
+]
