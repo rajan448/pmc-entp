@@ -6,10 +6,17 @@
     margin: 2rem 0;
 }
 
-.product-section {
-    height: 200px;
-}
 
 .big-heading {
-    font-size: 32px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: oblique;
+    color: #0a3f49;
+    /*text-decoration: underline;*/
+    /*text-underline: wavy-double;*/
+}
+
+.copyright {
+    margin: 1rem auto;
+    text-align: center;
 }

@@ -14,16 +14,16 @@ export const ProductCard = styled.div`
     flex: 1;
     min-height: 400px;
     flex-direction: column;
-    background-color: #aac0aa;
+    background-color: #f6f6f6;
     border-radius: 1rem;
 `;
 
 export const ProductFigure = styled.div`
-    background-color: #060615;
-    display: block;
-    width: 50%;
-    border: 1px solid white;
-    border-radius: 50%;
-    height: 180px;
-    margin: 1rem auto;
+  background-color: #cecefd;
+  display: block;
+  width: 58%;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 170px;
+  margin: 1rem auto;
 `;

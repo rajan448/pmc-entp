@@ -27,6 +27,7 @@
     text-decoration: none;
     font-size: 2rem;
     flex-grow: 1;
+    font-weight: 500;
   }
   
   .nav-menu {
@@ -67,7 +68,7 @@
   
   .nav-item .active {
     color: #0bc0dc;
-    border: 1px solid #0bc0dc;
+    /*border: 1px solid #0bc0dc;*/
   }
   
   .nav-icon {

@@ -5,7 +5,7 @@ import './slider.css';
 
 class SimpleSlider extends React.Component {
     render() {
-        return <Carousel showStatus={false} showThumbs={false} infiniteLoop={true} autoPlay={false}>
+        return <Carousel showStatus={false} showThumbs={false} infiniteLoop={true} autoPlay={true}>
                 <div>
                     <img src="./assets/images/plain_bowl.webp" alt="Dinner Set" />
                     <div className="legend">
