@@ -14,6 +14,9 @@ const Title = styled.div`
   text-align: center;
   color: #0bc0dc;
   opacity: 0.6;
+  @media screen and (max-width: 960px) {
+    text-align: left;
+  }
 `;
 
 const AboutDescription = styled.div`
@@ -23,6 +26,15 @@ const AboutDescription = styled.div`
   margin: 0 auto;
   line-height: 2.4;
   letter-spacing: 1.2px;
+  @media screen and (max-width: 960px) {
+    font-size: 1rem;
+  }
+`;
+
+const ProfileImage = styled.img`
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
 `;
 
 export default function About() {
@@ -45,20 +57,30 @@ export default function About() {
                 </div>
               <ProductsContainer>
                 <ProductCard>
-                  <ProductFigure></ProductFigure>
+                  <ProductFigure>
+                      <ProfileImage src="./assets/images/about/ajeet.webp" alt="Mr Ajeet"></ProfileImage>
+                  </ProductFigure>
                   <p style={{textAlign: "center"}}>
-                    Proprietor: Mr. Ajeet Kumar <br/>
-                      New Delhi <br/>
-                      M: 9213132677
+                    <small>
+                        Proprietor
+                        <strong> Mr. Ajeet Kumar</strong><br/>
+                     <address> @New Delhi </address>
+                      Contact: <a href="tel:+919213132677">+919213132677</a>
+                    </small>
                   </p>
                 </ProductCard>
                 <ProductCard>
-                <ProductFigure></ProductFigure>
-                  <p style={{textAlign: "center"}}>
-                      Contact Person: Mr. RamKrishna Mahto <br/>
-                      Guwahati <br/>
-                      M: 9264142577
-                  </p>
+                <ProductFigure>
+                    <ProfileImage src="./assets/images/about/rkm.webp" alt="Mr. Ram Krishna Mahto"></ProfileImage>
+                </ProductFigure>
+                    <p style={{textAlign: "center"}}>
+                        <small>
+                            Contact Person
+                            <strong> Mr. RamKrishna Mahto</strong><br/>
+                            <address> @Guwahati </address>
+                            Contact: <a href="tel:+919264142577">+919264142577</a>
+                        </small>
+                    </p>
                 </ProductCard>
               </ProductsContainer>
             </section>

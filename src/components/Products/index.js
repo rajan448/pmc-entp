@@ -23,10 +23,8 @@ export const ProductCard = styled.div`
 `;
 
 export const ProductFigure = styled.div`
-  background-color: #fff;
   display: block;
-  width: 40%;
-  border: 1px solid white;
+  width: 30%;
   border-radius: 50%;
   height: 120px;
   margin: 1rem auto;
