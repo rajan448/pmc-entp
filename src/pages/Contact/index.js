@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 const ContactContainer = styled.div`
     display: flex;
-    height: 110vh;
     justify-content: center;
     align-items: center;
 `;
@@ -13,7 +12,10 @@ const ContactContainer = styled.div`
 
 function ContactUs(props) {
   return (
-    <ContactContainer><div>ContactUs</div></ContactContainer>
+    <ContactContainer>
+
+
+    </ContactContainer>
   )
 }
 

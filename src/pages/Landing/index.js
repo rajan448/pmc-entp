@@ -39,40 +39,17 @@ export const Landing = () => {
                           ></FeaturedProduct>
                       })
                   }
+
+
               </div>
           </section>
-
-        <section className="products">
-            <div className="products-heading">
-                <div className="big-heading">Testimonials</div>
-            </div>
-          <ProductsContainer>
-            <ProductCard>
-              <ProductFigure></ProductFigure>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus perferendis dolore enim ad labore ipsa, dignissimos ratione velit vero. Voluptas consectetur perspiciatis dolores sint quaerat molestiae nostrum ullam quisquam.</p>
-            </ProductCard>
-            <ProductCard>
-            <ProductFigure></ProductFigure>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus perferendis dolore enim ad labore ipsa, dignissimos ratione velit vero. Voluptas consectetur perspiciatis dolores sint quaerat molestiae nostrum ullam quisquam.</p>
-            
-            </ProductCard>
-            <ProductCard>
-              <ProductFigure></ProductFigure>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus perferendis dolore enim ad labore ipsa, dignissimos ratione velit vero. Voluptas consectetur perspiciatis dolores sint quaerat molestiae nostrum ullam quisquam.</p>
-            </ProductCard>
-          </ProductsContainer>
-        </section>
-
-
 
         <section className="contact">
             <div className="products-heading">
                 <div className="big-heading">Contact Us</div>
             </div>
             <Address/>
-            <div className="copyright">
-                <small>Copyright PMC Enterprises@2022</small>
-            </div>
+
         </section>
       </div>
     );
@@ -116,7 +93,6 @@ const Address = () => {
               <p>
                   Email: <a href="mailto:ajeet@pmcmelamine.com">ajeet@pmcmelamine.com</a>
               </p>
-              {/*<Map location={location} zoomLevel={17}/>*/}
           </address>
       </AddressContainer>
     
@@ -129,30 +105,3 @@ const Address = () => {
       </ContactUsFormContainer>
   </ContactContainer>
 }
-//
-// const Map = ({location, zoomLevel}) => {
-//     return <div className="map">
-//         <h2 className="map-h2">Come Visit Us At Our Campus</h2>
-//
-//         <div className="google-map">
-//             <GoogleMapReact
-//                 bootstrapURLKeys={{ key: '' }}
-//                 defaultCenter={location}
-//                 defaultZoom={zoomLevel}
-//             >
-//                 <LocationPin
-//                     lat={location.lat}
-//                     lng={location.lng}
-//                     text={location.address}
-//                 />
-//             </GoogleMapReact>
-//         </div>
-//     </div>
-// }
-//
-// const LocationPin = ({ text }) => (
-//     <div className="pin">
-//         <Icon icon={locationIcon} className="pin-icon" />
-//         <p className="pin-text">{text}</p>
-//     </div>
-// )

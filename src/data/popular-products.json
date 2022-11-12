@@ -1,26 +1,26 @@
 [
   {
     "id": 11,
-    "name": "Dinner Set",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
-    "imageUrl": "./assets/images/plate-stack.webp"
+    "name": "Dining Plates",
+    "description": "We offer an extensive variety of high-quality dining plates with different designs, weight and sizes to choose from. Our plates are made from durable materials which last long.",
+    "imageUrl": "./assets/images/DinnerPlates.webp"
   },
   {
     "id": 12,
     "name": "Tray Set",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
-    "imageUrl": "./assets/images/plate-stack.webp"
+    "description": "We offer various designs of high quality trays that are perfect for entertaining guests or serving food. Whether you're looking for a simple rectangular tray or a more ornate design, we have something that will suit your requirement.",
+    "imageUrl": "./assets/images/tray-set.webp"
   },
   {
     "id": 13,
-    "name": "Bowl",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
-    "imageUrl": "./assets/images/designed-plate-design.webp"
+    "name": "Melamine Bowl",
+    "description": " Melamine soup bowls are perfect for serving soups, stews, and chili. We offer Custom designed, durable and break resistant bowls for various needs.",
+    "imageUrl": "./assets/images/bowl.webp"
   },
   {
     "id": 14,
-    "name": "Thali",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, dolores ea, eius eligendi ex facere harum ipsam itaque iusto minima modi placeat quisquam quod repudiandae sed sequi soluta voluptatum. Quod!",
-    "imageUrl": "./assets/images/plate-stack.webp"
+    "name": "Square Plates",
+    "description": "Ideal for dinner parties, buffets, and other events. We offer wide variety from simple white square plates to more decorative options.",
+    "imageUrl": "./assets/images/square-plate.webp"
   }
 ]

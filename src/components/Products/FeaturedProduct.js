@@ -35,6 +35,9 @@ const ProductImage = styled.img`
   max-width: 100%;
 `;
 
+const ActionContainer = styled.div`
+  margin-top: 1rem;
+`
 
 export const FeaturedProduct = ({even, imageUrl, name, description}) => {
     return <Container primary={even} className={"featured-product"}>
@@ -44,10 +47,11 @@ export const FeaturedProduct = ({even, imageUrl, name, description}) => {
         <DescriptionSection>
             <h1>{name}</h1>
             <p>{description}</p>
-            <div className={"buttons"}>
+            <small>Pack Size: Custom <br/> Min Order Quantity: 100</small>
+            <ActionContainer className={"buttons"}>
                 <Button variant="text" type="submit">View More</Button>
                 <Button style={{margin: "1rem"}} variant="outlined" type="submit">Enquire Now</Button>
-            </div>
+            </ActionContainer>
         </DescriptionSection>
     </Container>
 
