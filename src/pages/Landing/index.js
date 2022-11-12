@@ -1,6 +1,5 @@
 
 import SimpleSlider from "../../components/Slider";
-import {ProductCard, ProductFigure, ProductsContainer} from "./../../components/Products";
 import styled from "styled-components";
 import './landing.css';
 import {InputBox, TextInput} from "../../components/UIElements/InputBox";

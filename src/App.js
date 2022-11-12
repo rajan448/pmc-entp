@@ -3,7 +3,6 @@ import NavBar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Landing } from "./pages/Landing";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
 import ContactUs from "./pages/Contact";
 
 function App() {
