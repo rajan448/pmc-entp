@@ -63,11 +63,11 @@ function ContactUs(props) {
                 <AddressContainer>
                     <address>
                         <h5>Address: </h5>
-                        <p>H37, sector 4, <br/> Bawana industrial area, New Delhi <br/>
-                            Pincode 110073
+                        <p>16, North Jalukbari<br/> Guwahati, Kamrup, Assam <br/>
+                            Pincode 780014
                         </p>
 
-                        <p>M: <a href="tel:9213132677">9213132677</a></p>
+                        <p>M: <a href="tel:9264142577">9264142577</a></p>
                         <p>
                             Email: <a href="mailto:ajeet@pmcmelamine.com">ajeet@pmcmelamine.com</a>
                         </p>
