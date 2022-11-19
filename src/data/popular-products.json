@@ -9,7 +9,7 @@
     "id": 12,
     "name": "Tray Set",
     "description": "We offer various designs of high quality trays that are perfect for entertaining guests or serving food. Whether you're looking for a simple rectangular tray or a more ornate design, we have something that will suit your requirement.",
-    "imageUrl": "./assets/images/tray-set.webp"
+    "imageUrl": "./assets/images/tray-set.jpg"
   },
   {
     "id": 13,
@@ -21,6 +21,6 @@
     "id": 14,
     "name": "Square Plates",
     "description": "Ideal for dinner parties, buffets, and other events. We offer wide variety from simple white square plates to more decorative options.",
-    "imageUrl": "./assets/images/square-plate.webp"
+    "imageUrl": "./assets/images/square-plate.jpg"
   }
 ]

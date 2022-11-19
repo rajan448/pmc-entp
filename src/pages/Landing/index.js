@@ -6,18 +6,7 @@ import {InputBox, TextInput} from "../../components/UIElements/InputBox";
 import {Button} from "@mui/material";
 import { FeaturedProduct } from "../../components/Products/FeaturedProduct";
 import popularProducts from './../../data/popular-products.json';
-
-// import GoogleMapReact, {} from "google-map-react";
-// import { Icon } from '@iconify/react'
-// import locationIcon from '@iconify/icons-mdi/map-marker'
-
-//
-// const location = {
-//     address: '1600 Amphitheatre Parkway, Mountain View, california.',
-//     lat: 37.42216,
-//     lng: -122.08427,
-// } //
-
+import contactData from "./../../data/contactInformation.json";
 
 export const Landing = () => {
     return (
@@ -80,17 +69,19 @@ export const ContactUsFormContainer = styled.form`
 `;
 
 const Address = () => {
+    const mailUrl = `mailto:${contactData.emailAddress}`;
+    const phoneUrl = `tel:${contactData.contactNumber}`
   return <ContactContainer>
       <AddressContainer>
           <address>
               <h5>Address: </h5>
-              <p>H37, sector 4, <br/> Bawana industrial area, New Delhi <br/>
-                      Pincode 110073
+              <p>{contactData.addressLine1} <br/> {contactData.addressLine2} <br/>
+                  {contactData.addressLine3}
               </p>
 
-              <p>M: <a href="tel:9213132677">9213132677</a></p>
+              <p>M: <a href={phoneUrl}>{contactData.contactNumber}</a></p>
               <p>
-                  Email: <a href="mailto:ajeet@pmcmelamine.com">ajeet@pmcmelamine.com</a>
+                  Email: <a href={mailUrl}>{contactData.emailAddress}</a>
               </p>
           </address>
       </AddressContainer>
