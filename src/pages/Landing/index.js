@@ -9,6 +9,12 @@ import popularProducts from './../../data/popular-products.json';
 import contactData from "./../../data/contactInformation.json";
 
 export const Landing = () => {
+    //@TODO: fix this
+    const enquireNow = () => {
+        const element = document.getElementById("contactUs");
+        element.scrollIntoView();
+    }
+
     return (
       <div className="landing">
         <section className="banner">
@@ -22,7 +28,7 @@ export const Landing = () => {
               <div className="product-section">
                   {
                       popularProducts.map((item, index) => {
-                          return <FeaturedProduct even={index%2 === 0} key={item.id}
+                          return <FeaturedProduct enquireNow={enquireNow} even={index%2 === 0} key={item.id}
                               {...item}
                           ></FeaturedProduct>
                       })
@@ -86,7 +92,7 @@ const Address = () => {
           </address>
       </AddressContainer>
     
-      <ContactUsFormContainer>
+      <ContactUsFormContainer id="contactUs">
           <InputBox type="text" placeholder="Name"></InputBox>
           <InputBox type="email" placeholder="Email"></InputBox>
           <InputBox type="text" placeholder="Mobile"></InputBox>

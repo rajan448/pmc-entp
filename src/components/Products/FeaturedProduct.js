@@ -39,7 +39,7 @@ const ActionContainer = styled.div`
   margin-top: 1rem;
 `
 
-export const FeaturedProduct = ({even, imageUrl, name, description}) => {
+export const FeaturedProduct = ({even, imageUrl, name, description, enquireNow = Function.prototype}) => {
     return <Container primary={even} className={"featured-product"}>
         <ImageSection>
             <ProductImage src={imageUrl} alt="Plate Stack"/>
@@ -50,7 +50,7 @@ export const FeaturedProduct = ({even, imageUrl, name, description}) => {
             <small>Pack Size: Custom <br/> Min Order Quantity: 100</small>
             <ActionContainer className={"buttons"}>
                 <Button variant="text" type="submit">View More</Button>
-                <Button style={{margin: "1rem"}} variant="outlined" type="submit">Enquire Now</Button>
+                <Button style={{margin: "1rem"}} variant="outlined" type="submit" onClick={enquireNow}>Enquire Now</Button>
             </ActionContainer>
         </DescriptionSection>
     </Container>
